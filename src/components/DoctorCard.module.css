@@ -1,0 +1,51 @@
+.card{
+    background:#F6E9C7;
+    border-radius:22px;
+    padding:26px;
+    border:1px solid #E8DDBB;
+    box-shadow:0 8px 24px rgba(40,40,20,0.12);
+    color:#263326;
+     text-align: center;
+}
+    
+.top{
+    display:flex;
+    justify-content:center;
+    margin-top:8px;
+    position:relative}
+
+    
+.avatar{width:140px;
+  height:140px;
+  border-radius:50%;
+  object-fit:cover;
+  border:10px solid #F6E9C7;
+  box-shadow:0 0 0 10px #E6E0C9;
+  overflow:hidden}
+.rate{position:absolute;bottom:-8px;left:50%;transform:translateX(-50%);background:#2A2A2A;color:#fff;border-radius:20px;padding:8px 14px;font-weight:800;display:flex;gap:8px;align-items:center}
+.name{font-size:26px;font-weight:800;margin:28px 0 8px;color:#2C2F2C}
+.row{display:flex;align-items:center;gap:10px;color:#495149;margin:8px 0}
+.kv{
+    display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  gap: 6px; 
+  margin: 10px 0;
+}
+
+.badges{display:flex;gap:18px;margin-top:14px
+
+}
+.badge{flex:1;border:1px solid #D9D7C8;background:#FBF7ED;border-radius:16px;padding:14px;text-align:center}
+.price{font-weight:900;font-size:20px;margin-top:6px;color:#1f3c21}
+.actions{margin-top:16px;display:flex;flex-direction:column;gap:12px}
+.ghost{background:#EEF2EA;border:1px solid #C9D6C5;border-radius:14px;padding:16px;font-weight:800;text-align:center}
+.cta{background:#2F5F38;color:#fff;border:none;border-radius:14px;padding:18px;font-weight:900}

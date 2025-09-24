@@ -1,0 +1,10 @@
+.bar{position:sticky;top:0;z-index:30;background:linear-gradient(180deg,#F3F6EE 0%,#FFF7E6 60%);border-bottom:1px solid #e8eadf}
+.inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:72px;padding:0 16px;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:4px;color:#2F5F38}
+.links{display:flex;gap:28px;font-weight:700;color:#2F5F38}
+.auth{display:flex;gap:12px}
+.btn{padding:10px 16px;border-radius:12px;border:1px solid #2F5F38;background:#fff}
+.primary{background:#2F5F38;color:#fff}
+@media (max-width:768px){
+  .links{display:none}
+}
